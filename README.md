@@ -10,9 +10,9 @@
 
 ## 📋 Table of Contents
 - [📖 Overview](#-overview)
-- [🏗️ Architecture](#--architecture)
+- [🏗️ Architecture](#-architecture)
 - [🚀 Key Features](#-key-features)
-- [🛠️ Tech Stack](#--tech-stack)
+- [🛠️ Tech Stack](#-tech-stack)
 - [⚙️ Prerequisites](#-prerequisites)
 - [🔧 Configuration & Setup](#-configuration--setup)
 - [🚢 Deployment to Azure](#-deployment-to-azure)
