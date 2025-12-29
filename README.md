@@ -9,18 +9,18 @@
 [![Teams](https://img.shields.io/badge/Microsoft_Teams-Integration-6264A7?logo=microsoft-teams&logoColor=white)](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
 
 ## 📋 Table of Contents
-- [📖 Overview](#-Overview)
-- [🏗️ Architecture](#-Architecture)
-- [🚀 Key Features](#-Key-Features)
-- [🛠️ Tech Stack](#-Tech-Stack)
-- [⚙️ Prerequisites](#-Prerequisites)
-- [🔧 Configuration & Setup](#-configuration--setup)
-- [🚢 Deployment to Azure](#-deployment-to-azure)
-- [🧪 Testing & Troubleshooting](#-testing--troubleshooting)
-- [🔒 Security & Best Practices](#-security--best-practices)
-- [🤝 Contributing](#-contributing)
-- [🧠 Key Takeaways & Learnings](#-key-takeaways--learnings)
-- [💭 Final Thoughts](#-final-thoughts)
+- [📖 Overview](#overview)
+- [🏗️ Architecture](#architecture)
+- [🚀 Key Features](#key-features)
+- [🛠️ Tech Stack](#tech-stack)
+- [⚙️ Prerequisites](#prerequisites)
+- [🔧 Configuration & Setup](#configuration--setup)
+- [🚢 Deployment to Azure](#deployment-to-azure)
+- [🧪 Testing & Troubleshooting](#testing--troubleshooting)
+- [🔒 Security & Best Practices](#security--best-practices)
+- [🤝 Contributing](#contributing)
+- [🧠 Key Takeaways & Learnings](#key-takeaways--learnings)
+- [💭 Final Thoughts](#final-thoughts)
 
 ---
 
