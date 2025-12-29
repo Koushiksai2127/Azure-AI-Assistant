@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "id": "<Bot_ID>",
+  "version": "1.0.0",
+  "packageName": "com.Assistant.bot",
+  "developer": {
+    "name": "Assistant",
+    "websiteUrl": "<websiteUrl>",
+    "privacyUrl": "<privacyUrl>",
+    "termsOfUseUrl": "<termsOfUseUrl>"
+  },
+  "name": {
+    "short": "Assistant",
+    "full": "Assistant"
+  },
+  "description": {
+    "short": "welcome to Assistant!",
+    "full": "welcome to Assistant!."
+  },
+  "icons": {
+    "color": "color-icon.png",
+    "outline": "outline-icon.png"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "<Bot_ID>",
+      "scopes": [ "personal", "team", "groupchat" ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+ 
+  ],
+  "validDomains": [
+    "<Appservice_URL>"
+  ]
+}
