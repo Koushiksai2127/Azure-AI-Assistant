@@ -36,8 +36,7 @@ By leveraging **Azure AI Services**, specifically Conversational Language Unders
 
 The solution is built on the Microsoft Azure Cloud platform using the **Bot Framework SDK for .NET**, ensuring enterprise-grade scalability and strong typing.
 
-<img width="1320" height="532" alt="image" src="https://github.com/user-attachments/assets/ba438595-3bd0-4d06-beac-5ac2d41b1d39" />
-
+![Architecture](https://github.com/Koushiksai2127/Azure-AI-Assistant/blob/main/Screenshots/Architecture.png)
 
 ### Data Flow
 1.  **User Interaction:** The user sends a query via the **Microsoft Teams** interface.
@@ -139,6 +138,8 @@ You need to set up the Azure Resource Environment.
     * Create a new **Conversational Language Understanding** project.
     * Define your **Intents** (e.g., `program`, `wave`) and add sample utterances.
     * **Train** the model and **Deploy** it (name the deployment `Test`).
+
+![NLP_Language_Service](https://github.com/Koushiksai2127/Azure-AI-Assistant/blob/main/Screenshots/CLU_Project.png)
 
 #### Step C: Bot Registration (The Identity)
 1.  **Create Azure Bot:**
@@ -272,6 +273,9 @@ To make your bot visible and interactive in Microsoft Teams, you must package it
    * Click Preview in Teams to install privately for testing Or click Publish to distribute across your organization’s tenant
 
 ✅ **Best Practice:** Always test with **Preview in Teams** first before publishing to ensure functionality and UI appearance are correct.
+
+
+#### please find the [`Teams_bot_response`](Screenshots/Teams_bot_response.png) here.
 
 ---
 ## 🧪 Testing & Troubleshooting
