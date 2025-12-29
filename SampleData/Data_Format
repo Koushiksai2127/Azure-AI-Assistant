@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "topic": "Program 1",
+    "subtopic": "AI",
+    "name": "AI Fundamentals",
+    "answer": "<a href=\"https://eng.ms/docs/azure-ai\">AI Guide</a>",
+    "control_scope": "AI Resources"
+  },
+  {
+    "id": "2",
+    "topic": "Program 1",
+    "subtopic": "ML",
+    "name": "ML basics",
+    "answer": "<a href=\"https://eng.ms/docs/Azure-ML\">ML Guide</a>",
+    "control_scope": "ML basics"
+  },
+  {
+    "id": "3",
+    "topic": "Program 2",
+    "subtopic": "Data Loading",
+    "name": "Azure SQL",
+    "answer": "<a href=\"https://eng.ms/docs/azure-sql">SQL Guide</a>",
+    "control_scope": "All Azure SQL Databases"
+  }
+]
