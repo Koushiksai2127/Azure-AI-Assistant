@@ -1,0 +1,111 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "style": "emphasis",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://cdn-icons-png.flaticon.com/512/2879/2879407.png",
+                  "size": "Medium",
+                  "altText": "Security Assistant Icon"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Welcome to Events Security & Compliance Assistant",
+                  "weight": "Bolder",
+                  "size": "Medium",
+                  "wrap": true
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Your AI-powered assistant for streamline your security compliance programs.",
+                  "size": "Small",
+                  "isSubtle": true,
+                  "wrap": true
+                }
+              ]
+            }
+          ],
+          "spacing": "Small"
+        }
+      ],
+      "padding": {
+        "top": "Small",
+        "bottom": "Small",
+        "left": "Medium",
+        "right": "Medium"
+      }
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "I'm your AI-powered Security and Compliance Assistant, designed to help you navigate remediation guides, policies, and best practices for SFI, AZT, SDL, and other critical security programs.",
+      "wrap": true,
+      "size": "Default"
+    },
+    {
+      "type": "FactSet",
+      "spacing": "Large",
+      "facts": [
+        {
+          "title": "🔒 Access Policies",
+          "value": "Understand who has access to what."
+        },
+        {
+          "title": "🛡️ Remediation",
+          "value": "Get step-by-step guides for fixing issues."
+        },
+        {
+          "title": "📊 Compliance",
+          "value": "Stay aligned with internal and external standards."
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "🔍 Explore Programs",
+          "style": "positive",
+          "data": {
+            "id": "topics"
+          }
+        }
+      ],
+      "horizontalAlignment": "Center",
+      "spacing": "Large"
+    }
+  ],
+  "actions": [],
+  "padding": {
+    "top": "Medium",
+    "bottom": "Medium",
+    "left": "Medium",
+    "right": "Medium"
+  },
+  "backgroundImage": {
+    "url": "https://cdn.pixabay.com/photo/2017/05/15/23/47/matrix-2317659_1280.jpg",
+    "horizontalAlignment": "Center",
+    "verticalAlignment": "Top",
+    "opacity": 0.05,
+    "fillMode": "Repeat"
+  }
+}

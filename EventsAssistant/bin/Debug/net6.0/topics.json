@@ -1,0 +1,36 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Please select one of the following assistance:",
+      "weight": "bolder",
+      "size": "medium"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "$data": "${topics}",
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.Submit",
+              "title": "${title}",
+              "data": {
+                "msteams": {
+                  "type": "imBack",
+                  "value": "${value}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+

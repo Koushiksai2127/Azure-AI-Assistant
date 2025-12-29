@@ -1,0 +1,52 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "Container",
+      "bleed": true,
+      "spacing": "medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Please select any one of the options from the ${cardTitle}:**",
+          "wrap": true,
+          "weight": "bolder",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "medium",
+      "items": [
+        {
+          "$data": "${names}",
+          "type": "Container",
+          "style": "emphasis",
+          "bleed": true,
+          "spacing": "small",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${title}",
+              "weight": "bolder",
+              "size": "medium",
+              "wrap": true
+            }
+          ],
+          "selectAction": {
+            "type": "Action.Submit",
+            "title": "Select",
+            "data": {
+              "action": "selectName",
+              "selectedName": "${value}",
+              "title": "${title}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

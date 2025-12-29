@@ -1,0 +1,52 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Please select a ${topicName} program wave from the available list and click **Get Assistance** to proceed.",
+      "wrap": true,
+      "size": "medium",
+      "spacing": "medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "Input.ChoiceSet",
+              "id": "selectedSubtopic",
+              "isMultiSelect": false,
+              "placeholder": "Search or select a program wave...",
+              "choices": "${subtopics}"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Get Assistance",
+                  "style": "positive",
+                  "data": {
+                    "action": "selectSubtopic",
+                    "id": "selectSubtopic"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

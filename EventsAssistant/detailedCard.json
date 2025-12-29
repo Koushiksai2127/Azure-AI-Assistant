@@ -1,0 +1,60 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "${name}",
+      "weight": "Bolder",
+      "size": "Large",
+      "wrap": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "",
+      "spacing": "Medium"
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "",
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Wave:** ${subtopic}",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "",
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Control Scope:** ${controlScope}",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Summary**:",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "${description}",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "TextBlock",
+      "text": "${answerText}",
+      "wrap": true,
+      "spacing": "Medium"
+    }
+  ],
+  "actions": []
+}

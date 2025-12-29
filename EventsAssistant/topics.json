@@ -1,0 +1,51 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "Container",
+      "bleed": true,
+      "spacing": "medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Choose any one of the following programs for your assistance.**",
+          "wrap": true,
+          "weight": "bolder",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "$data": "${topics}",
+          "type": "Container",
+          "style": "emphasis",
+          "bleed": true,
+          "spacing": "small",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${title}",
+              "weight": "bolder",
+              "size": "medium",
+              "wrap": true
+            }
+          ],
+          "selectAction": {
+            "type": "Action.Submit",
+            "data": {
+              "msteams": {
+                "type": "imBack",
+                "value": "${value}"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
